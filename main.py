@@ -4,6 +4,7 @@ import logging
 import os 
 import time
 import asyncio
+import requests
 ''' 以下スプレッドシート取得,Googledrive書き込み,その他に必要なライブラリ(スプレッドシートは認証情報ではなくAPI)
 '''
 # OpenAI API
