@@ -38,6 +38,7 @@ async def main():
             report = await get_report(query[0], "research_report")
             # この部分の処理を明日追加
             print(report)
+            # 多分cloudrunで動かすのでgcsに保存する処理を追加、レポート名をクエリ名にして保存
 
             # レート制限のために10秒待機
             time.sleep(10)
