@@ -1,6 +1,5 @@
 import openai
 import gpt-researcher
-import gspread
 import logging
 import os 
 import time
